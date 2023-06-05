@@ -8,7 +8,7 @@ def sieve_of_eratosthenes(n):
     p = 2
     while p * p <= n:
         if primes[p] == True:
-            for i in range(p * p, n + 1, p):
+            for i in range(p * p, n + 1, p):  # 4,1000000,2
                 primes[i] = False
         p += 1
 
