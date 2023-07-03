@@ -37,28 +37,4 @@ password_array.sort()
 for password in password_array:
     print(password)
 
-# for i in range(1,len(vowels)+1):
-#     if L-i>=2:
-#         for j in list(combinations(vowels,i)):
-#                     consonants_array.append(j)
-#         for k in list(combinations(consonants,L-i)):
-#                         vowels_array.append(k)
-
  
-# for i in consonants_array:
-#         for j in vowels_array:
-#                 if(len(i)+len(j)==L):
-#                     password_array.append(i+j)
-
-# print(password_array)
-# password_array.sort()
-
-
-# for password in password_array:
-#         print("".join(map(str,sorted(list(password)))))
-         
-        
-
-# # password_array.sort()
-# # for password in password_array:
-       

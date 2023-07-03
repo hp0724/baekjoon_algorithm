@@ -19,9 +19,10 @@ def back_tracking(cnt, idx):
 
         return
 
-    for i in range(idx, c):
+    for i in range(idx, c): # 4 6 
         answer.append(words[i])
         back_tracking(cnt + 1, i + 1)
+        
         answer.pop()
 
 back_tracking(0, 0)
