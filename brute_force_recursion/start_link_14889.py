@@ -24,3 +24,5 @@ min_diff = int(1e9)
 
 dfs(0,0)
 print(min_diff)
+
+ 
