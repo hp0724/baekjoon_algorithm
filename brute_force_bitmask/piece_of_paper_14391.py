@@ -53,6 +53,4 @@ for _ in range(n):
 result = get_max_sum(n, m, paper)
 print(result)
 
-# n,m = map(int,input().split())
-# for state in range(1 << (n * m)):
-#     print (state)
+ 
