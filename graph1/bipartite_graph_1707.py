@@ -25,7 +25,6 @@ for _ in range(K):
     visited = [False] *(V+1)
     error =False
 
-
     for _ in range(E):
         a,b= map(int,input().split())
         graph[a].append(b)
