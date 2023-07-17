@@ -1,6 +1,5 @@
 from collections import deque
  
-
 def dfs(graph,v,visited):
     # 방문 처리하고 
     visited[v]=True
@@ -11,8 +10,6 @@ def dfs(graph,v,visited):
         if not visited[i]:
             dfs(graph,i,visited)
 
-
- 
 def bfs(graph,start,visited):
     # deque 선언하고 
     queue = deque([start])
