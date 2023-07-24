@@ -1,7 +1,7 @@
 from sys import stdin
 input = stdin.readline
 
-def cycle ( color ,x,y,cnt,start_x,start_y):
+def cycle ( color,x,y,cnt,start_x,start_y):
     global ans 
     # 사이클 찾으면 종료 
     if ans :
